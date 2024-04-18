@@ -13,3 +13,7 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -webkit-appearance: textfield;
 }
+
+.btn-check-verde{
+  width: 150px;
+}
