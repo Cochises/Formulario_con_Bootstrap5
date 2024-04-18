@@ -1,0 +1,15 @@
+/* Aplica el estilo solo a los input de tipo number */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+/* También se puede agregar el siguiente código para navegadores basados en Webkit, como Chrome y Safari */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+}
